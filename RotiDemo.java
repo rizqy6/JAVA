@@ -35,7 +35,7 @@ public class RotiDemo {
 
         System.out.println('\n');
 
-        // object 3
+        // object 4
         Roti roti4 = new Roti();
         roti4.beriWarna("Hitam");
         roti4.beriRasa("Nangka");
