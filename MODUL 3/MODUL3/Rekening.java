@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Rekening {
     int no_rekening;
-    int saldo = 100000, tarik, nabung, kirim;
+    int saldo = 10000000, tarik, nabung, kirim;
     Scanner sc = new Scanner(System.in);
     
     public void cek_saldo(){
