@@ -24,10 +24,10 @@ public class BukuAccess {
         Buku h = new Buku("Abdi", "Bunga",1,1, 2000);
        h.info();
 
-        Buku i = new Buku("Abdi", "Bunga",1,1, 2000);
+        Buku i = new Buku(1,2);
         i.info();
 
-        Buku j = new Buku("Abdi", "Bunga",1,1, 2000);
+        Buku j = new Buku(3000);
         j.info();
     }
 }
