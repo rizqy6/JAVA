@@ -7,5 +7,9 @@ public class Siswa {
         this.nama = "rizqy";
         this.nim = "L200210015";
         this.alamat = "Jepara"; 
+
+        
     }
+
+   
 }

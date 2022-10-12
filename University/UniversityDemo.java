@@ -22,5 +22,20 @@ public class UniversityDemo {
         mhs1.revisiNilai(3.7);
         System.out.println(mhs1.ambilNilai());
 
+        Staff a = new Staff();
+        a.nama = "Hari";
+        a.nip = "L2124343";
+        a.alamat = "Jepara";
+        a.jenisKelamin = "Laki -Laki";
+        a.gaji= "10.000.000";
+
+        System.out.println(a.nama);
+        System.out.println(a.nip);
+        System.out.println(a.alamat);
+        System.out.println(a.jenisKelamin);
+
+        a.hariCuti();
+        System.out.println(Staff.maxHariCuti);
+
     }
 }

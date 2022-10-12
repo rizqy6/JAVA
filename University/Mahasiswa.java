@@ -1,12 +1,29 @@
 package University;
 
 public class Mahasiswa {
-    String nama = "Student";
+    public String nama = "Student";
     String nim;
     String alamat;
     double ipk;
     static final double maxIPK = 4.00;
 
+    public Mahasiswa(){
+        System.out.println("a");
+    }
+
+    public Mahasiswa(String  masukan) {
+        this.nama = masukan;
+    }
+
+    // public Mahasiswa(String nama){
+    //     this();
+    //     this.nama = masukan;
+    // }
+
+    // public Mahasiswa(String masukan){
+    //     this(masukan);
+    //     this.ipk= nilai;
+    // }
     void isiKRS() {
         System.out.println("Mahasiswa Telah Mengisi KRS");
     }
@@ -19,3 +36,6 @@ public class Mahasiswa {
         this.ipk = ipk;
     }
 }
+
+
+//this () berarti memanggil constructor dalam class nya sendiri
