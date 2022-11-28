@@ -11,6 +11,8 @@ public class Buku {
         this.tahunTerbit = tahunTerbit;
         this.cetakanKe = cetakanKe;
         this.hargaJual = hargaJual;
+
+        System.out.println("Nama: "+ namaPengarang);
     }
 
     public Buku(int tahunTerbit, int cetakanKe){
