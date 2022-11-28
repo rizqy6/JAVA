@@ -1,0 +1,111 @@
+Soal No 1
+Setpath (wajib)
+cd lab\lab1
+del floppya.img -p
+bximage
+dosfp
+B save oke
+Format B: /S
+Power
+S
+
+
+
+
+
+Soal no 2
+Setpath (wajib)
+cd lab\lab2
+bximage
+dir
+dosfp
+b save ganti lab 2
+format B: /S
+make fp.disk
+S di cmd
+Notepad boot.asm
+Cari bagian bawah
+Make fp.disk
+S
+Make kernel
+Buka winimage
+Inject kernel.bin
+Save
+S
+Notepad kernel.asm
+Cari  bawah 
+Ganti
+Make fp.disk
+S
+
+
+
+
+
+
+
+Soal no 3
+Cd os
+Setpath
+Cd la b\lab3
+Type s.bat
+S
+Blk cmd s
+r
+s
+r
+vb 0x07C00
+c
+s
+s
+q
+CTRL C
+N
+S
+vb 0x0100:0x0000
+c
+s
+s
+s
+s
+s
+s
+s
+q
+CTRL C	
+N
+
+Soal 4
+mkdir (nama direktori)
+dir
+rmdir( nama direktori)
+ipconfig
+date/t
+ver
+help
+tree c:\os
+copy c:\info\yok.txt c:\info2
+rename info.txt mari.txt
+
+soal nomor 5
+enco UMS
+whoami
+hostname -i
+uname -a
+cal 8 2010
+history
+cal 2017
+df -h
+enco 10+10 | bc -l
+ls-la
+
+soal nomor 6
+sudo apt install peek
+sudo apt install scilab
+sudo apt shotwell
+sudo apt git
+ncal, net-tools, apache2
+
+ 
+
+ 
