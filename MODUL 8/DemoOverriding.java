@@ -4,5 +4,6 @@ public class DemoOverriding {
         Childclaz cc = new Childclaz();
         pc.printOut();
         cc.printOut();
+      
     }
 }
