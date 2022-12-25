@@ -15,10 +15,12 @@ public class AplikasiLampu {
         // int x = sc.nextInt();
         if(lampu.setSaklar(sc.nextInt())==0){
             lampu.matikanLampu();
-        }else if(lampu.setSaklar(sc.nextInt())==1){
+        }else if(lampu.statuslampu==1){
             lampu.hidupkanLampu();
-        }else{
+        }else if (lampu.statuslampu==2){
             lampu.meredupkanLampu();;
-        }      
+        }else{
+            System.out.println("eror");
+        }
     }
 }

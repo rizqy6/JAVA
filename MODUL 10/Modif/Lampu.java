@@ -6,7 +6,7 @@ public class Lampu implements ActivityLampu{
         if(statuslampu==0){
             System.out.println("Lampuu sudah dalam kondisi mati");
         }else if (statuslampu==1){
-            statuslampu=-1;
+            statuslampu = -1;
             System.out.println("Lampu sudah dimatikan");
         }
     }
@@ -14,20 +14,20 @@ public class Lampu implements ActivityLampu{
     @Override
     public void hidupkanLampu() {
         if(statuslampu==1){
-            System.out.println("Lampu sudah dinyalakan\n***");
+            System.out.println("Lampu sudah dalam kondisi menyala\n***");
         }else{
             statuslampu = +1;
-            System.out.println("Lampu sudah dalam kondisi menyala");
+            System.out.println("Lampu sudah dinyalakan");
         }
     }
 
     @Override
     public void meredupkanLampu() {
         if(statuslampu==2){
-            System.out.println("Lampu sudah diredupkan");
+            System.out.println("Lampu sudah  dalam kondisi redup");
         } else{
-            statuslampu=2;
-            System.out.println("Lampu sudah dalam kondisi redup");
+            statuslampu= +2;
+            System.out.println("Lampu sudah diredupkan");
         }
     }
 
