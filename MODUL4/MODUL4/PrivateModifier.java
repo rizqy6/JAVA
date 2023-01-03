@@ -8,11 +8,4 @@ public class PrivateModifier{
     public void printInfo(){
         System.out.println("Private modifier");
     }
-
-    // public static void main(String[] args){
-    //     PrivateModifier pvt = new PrivateModifier();
-    //     pvt.printInfo();
-
-
-    // }
 }

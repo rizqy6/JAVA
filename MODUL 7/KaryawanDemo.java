@@ -1,7 +1,7 @@
 public class KaryawanDemo {
     public static void main(String[] args){
         // Karyawan k1 = new Karyawan();
-        // k1.setNama("RIzqy");
+        // k1.setNama("RIza");
         // k1.setGaji(25000000);
         // k1.setUsia(19);
 
@@ -12,13 +12,13 @@ public class KaryawanDemo {
         //object satu
         Manager k2 = new Manager();
 
-        k2.setNama("Rizqy");
+        k2.setNama("Riza");
         k2.setGaji(2500000);
         k2.setUsia(19);
 
 
-        k2.setNamaManager("Rizqy");
-        k2.setAlamat("Jepara");
+        k2.setNamaManager("Riza");
+        k2.setAlamat("Magetan");
 
         System.out.println("Nama Karyawan: " + k2.getNama());
         System.out.println("Gaji Karyawan: " + k2.getGaji());

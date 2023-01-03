@@ -9,10 +9,4 @@ public class DefaultModifier {
         System.out.println(c);
     }
 
-    // public static void main(String[] args){
-    //     DefaultModifier jml = new DefaultModifier();
-    //     System.out.println("a = "+ a + "\n" + "b = "+ b + "\n");
-    //     jml.jumlah();
-        
-    // }
 }

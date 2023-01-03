@@ -1,8 +1,8 @@
 package LATIHAN;
 
 class NestedClass{
-    String nama = "Faza Rizqy Septin R";
-    String nim = "L200210015";
+    String nama = "Maghfur RIza";
+    String nim = "L200210078";
 
     public void printNama(){
         System.out.println("Nama: " + nama + "\nNIM: " + nim);

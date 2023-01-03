@@ -2,7 +2,7 @@ package TUGASCUSTOMER;
 
 public class DemoCustomer {
     public static void main(String[] args){
-        CustomerData p1 = new CustomerData("Rizqy", "Jepara", "UI/UX", 10, 300000);
+        CustomerData p1 = new CustomerData("Riza", "Magetan", "UI Profesional", 13, 300000);
         CustomerData p2 = new CustomerData("Aji", "Semarang", "Pengangguran", 12, 400000);
         CustomerData p3 = new CustomerData("Abda", "SemarangKota", "Buruh", 13, 500000);
         CustomerData p4 = new CustomerData("abde", "Jepara", "Pilot", 14, 600000);
